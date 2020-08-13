@@ -1,0 +1,27 @@
+{
+    "name": "jest-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "lint:js": "eslint .",
+        "lint:css": "stylelint **/*.{css,scss}",
+        "lint:css:fix": "stylelint **/*.{css,scss} -s css --fix"
+    },
+    "author": "Osama Aldemeery <aldemeery@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/aldemeery/jest-test.git"
+    },
+    "devDependencies": {
+        "eslint": "^7.4.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-plugin-import": "^2.22.0",
+        "jest": "^26.4.0",
+        "stylelint": "^13.6.1",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-csstree-validator": "^1.8.0",
+        "stylelint-scss": "^3.18.0"
+    }
+}
